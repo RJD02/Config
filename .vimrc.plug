@@ -1,0 +1,62 @@
+call plug#begin('~/.vim/plugged')
+
+"Fugitive Vim Github Wrapper
+Plug 'tpope/vim-fugitive'
+
+"Base 16 Colors
+Plug 'chriskempson/base16-vim'
+"You complete me
+" Plug 'valloric/youcompleteme'
+"Clang complete
+Plug 'rip-rip/clang_complete'
+"Syntastic
+Plug 'scrooloose/syntastic'
+"Commentor
+Plug 'scrooloose/nerdcommenter'
+"Snippets
+Plug 'honza/vim-snippets'
+"Command-t
+Plug 'wincent/command-t'
+"Nerd tree
+Plug 'scrooloose/nerdtree'
+"Nerd tree git plugin
+Plug 'preservim/nerdtree'
+Plug 'Xuyuanp/nerdtree-git-plugin'
+"Solid language pack
+Plug 'sheerun/vim-polyglot'
+"Super tab
+Plug 'ervandew/supertab'
+"rainbow brackets
+Plug 'frazrepo/vim-rainbow'
+"Light
+Plug 'itchyny/lightline.vim'
+"Fuzzy search
+Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
+Plug 'junegunn/fzf.vim'
+"Helps to search a certain line in a list of file
+Plug 'mileszs/ack.vim'
+"Tag list
+"Plug 'https://github.com/vim-scripts/taglist.vim.git'
+"Emmet
+Plug 'mattn/emmet-vim'
+"Indenting guide
+"Plug 'Yggdroot/indentLine'
+"
+" Dracula theme for vim
+Plug 'dracula/vim',{'as':'dracula'}
+
+" Onehalf colorscheme
+Plug 'sonph/onehalf', { 'rtp': 'vim' }
+
+" Waka time for tracking programming time.
+Plug 'wakatime/vim-wakatime'
+
+" Tag for front end dev
+Plug 'AndrewRadev/tagalong.vim'
+
+" ALE
+Plug 'dense-analysis/ale'
+Plug 'vim-airline/vim-airline'
+Plug 'vim-airline/vim-airline-themes'
+Plug 'powerline/fonts'
+call plug#end()
